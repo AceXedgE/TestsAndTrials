@@ -1,0 +1,44 @@
+
+.nav-link {
+    text-decoration: none;
+    display: flex;
+    color: grey;
+    padding: 15px 20px;
+
+}
+
+
+.nav-link.active {
+    background-color: #1e94f6;
+    font-weight: bold;
+    color: lightblue;
+    border-radius: 7px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.username {
+   margin-top: 300px;
+   display: flex;
+   align-items: center;
+}
+
+.username span {
+    margin-left: 7px;
+}
+
+.username img {
+    width: 25%;
+}
+
+.sidebar h2 {
+    margin-left: 20px;
+}
+
+svg {
+    margin-right: 8px;
+}

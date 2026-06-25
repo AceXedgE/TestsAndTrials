@@ -1,0 +1,27 @@
+.dashboard-top {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.search-box {
+  margin-left: 20px;
+
+}
+
+.search-input {
+    width: 500px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.find-button {
+    padding: 7px 20px;
+    border-radius: 5px;
+    background-color:  #1e94f6;
+    border: none;
+    cursor:pointer;
+    color: white;
+    font-weight: bold;
+
+}
